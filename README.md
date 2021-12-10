@@ -1,4 +1,4 @@
-#BrowserStack Specflow Sample
+## BrowserStack Specflow Sample
 
 Sample test case to demonstrate integration of a Specflow test on BrowserStack.
 
