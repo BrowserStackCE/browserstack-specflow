@@ -19,5 +19,6 @@ Sample test case to demonstrate integration of a Specflow test on BrowserStack.
 * To test on a different set of browsers, check out our [platform configurator](https://www.browserstack.com/docs/automate/selenium/select-browsers-and-devices)
 
 ## Steps to run
+- Restore Nuget packages - `dotnet restore`
 - Build the project - `dotnet msbuild`
 - Run the test - `dotnet test`
