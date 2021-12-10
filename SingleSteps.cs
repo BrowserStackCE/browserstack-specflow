@@ -6,7 +6,6 @@ using TechTalk.SpecFlow;
 
 namespace BS_Specflow
 {
-    // Google Steps
     [Binding]
     public class SingleSteps
     {
