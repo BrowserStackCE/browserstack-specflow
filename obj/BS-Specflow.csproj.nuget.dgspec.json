@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithy\\source\\repos\\BS-Specflow\\BS-Specflow.csproj": {}
+    "/Users/nithyamani/Desktop/BrowserStackCE repo migration/bs-specflow/BS-Specflow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithy\\source\\repos\\BS-Specflow\\BS-Specflow.csproj": {
+    "/Users/nithyamani/Desktop/BrowserStackCE repo migration/bs-specflow/BS-Specflow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy\\source\\repos\\BS-Specflow\\BS-Specflow.csproj",
+        "projectUniqueName": "/Users/nithyamani/Desktop/BrowserStackCE repo migration/bs-specflow/BS-Specflow.csproj",
         "projectName": "BS-Specflow",
-        "projectPath": "C:\\Users\\nithy\\source\\repos\\BS-Specflow\\BS-Specflow.csproj",
-        "packagesPath": "C:\\Users\\nithy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy\\source\\repos\\BS-Specflow\\obj\\",
+        "projectPath": "/Users/nithyamani/Desktop/BrowserStackCE repo migration/bs-specflow/BS-Specflow.csproj",
+        "packagesPath": "/Users/nithyamani/.nuget/packages/",
+        "outputPath": "/Users/nithyamani/Desktop/BrowserStackCE repo migration/bs-specflow/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nithy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nithyamani/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,16 +36,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[17.0.0, )"
             },
             "NUnit3TestAdapter": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.16.1, )"
+              "version": "[4.1.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
@@ -57,15 +54,15 @@
             },
             "SpecFlow": {
               "target": "Package",
-              "version": "[3.1.97, )"
+              "version": "[3.9.40, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.1.97, )"
+              "version": "[3.9.40, )"
             },
             "SpecFlow.Tools.MsBuild.Generation": {
               "target": "Package",
-              "version": "[3.1.97, )"
+              "version": "[3.9.40, )"
             }
           },
           "imports": [
@@ -83,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

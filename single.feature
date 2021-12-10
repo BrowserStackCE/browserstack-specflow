@@ -1,6 +1,6 @@
 ﻿Feature: Google
 
 Scenario Outline: Can find search results
-  Given I am on the google page
-  When I search for "BrowserStack"
-  Then I should see title "BrowserStack - Google Search"
+  Given I am on the Bstackdemo website and click on signin
+  When I enter "demouser" and "testingisfun99"
+  Then I should see user as "demouser"
