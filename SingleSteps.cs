@@ -25,7 +25,7 @@ namespace BS_Specflow
             capability.AddAdditionalCapability("browserstack.user", username, true);
             capability.AddAdditionalCapability("browserstack.key", accessKey, true);
             driver = new RemoteWebDriver(
-            new Uri("http://hub-cloud.browserstack.com/wd/hub/"), capability);
+            new Uri("https://hub-cloud.browserstack.com/wd/hub/"), capability);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
         }
 
